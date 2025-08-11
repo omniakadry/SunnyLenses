@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunny Lenses</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <!-- <div class="loading-screen">
+      <div class="loading-content">
+        <div class="loading-logo">
+          <i class="fas fa-sun"></i>
+          <span>Sunny Lenses</span>
+        </div>
+        <div class="loading-spinner"></div>
+      </div>
+    </div> -->
+
+  <div id="app">
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-brand">
+          <i class="fas fa-sun"></i>
+          <span>Sunny Lenses</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#frames" data-text="FRAMES">FRAMES</a></li>
+          <li><a href="#lenses" data-text="LENSES">LENSES</a></li>
+          <li><a href="#pricing" data-text="PRICING">PRICING</a></li>
+          <li><a href="#reviews" data-text="REVIEWS">REVIEWS</a></li>
+          <li><a href="#locations" data-text="LOCATIONS">LOCATIONS</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="btn-search" aria-label="Search">
+            <i class="fas fa-search"></i>
+          </button>
+          <button class="btn-cart" aria-label="Shopping Cart">
+            <i class="fas fa-shopping-bag"></i>
+            <!-- <span class="cart-count">0</span> -->
+          </button>
+        </div>
+        <div class="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-background">
+        <div class="hero-gradient"></div>
+        <div class="floating-elements">
+          <div class="floating-element" style="--delay: 0s; --duration: 6s;"></div>
+          <div class="floating-element" style="--delay: 2s; --duration: 8s;"></div>
+          <div class="floating-element" style="--delay: 4s; --duration: 7s;"></div>
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <!-- <div class="hero-badge">
+            <i class="fas fa-award"></i>
+            <span>CUSTOM-TAILORED EYEWEAR</span>
+          </div> -->
+          <h1 class="hero-title">
+            <span class="title-line">Glasses that look</span>
+            <span class="title-line highlight">good on you</span>
+            <span class="title-line">not just on the shelf</span>
+          </h1>
+          <p class="hero-description">
+            Experience the perfect fit with our revolutionary custom-tailored eyewear.
+            Each frame is precisely crafted to your unique measurements for unmatched comfort and style.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary">
+              <span>SHOP MEN</span>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+            <button class="btn btn-secondary">
+              <span>SHOP WOMEN</span>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-container">
+          <img src="https://i.pinimg.com/736x/5e/41/65/5e4165886c0091e13aaa7a0e685b47d6.jpg"
+            alt="Woman in sunglasses in sunflower field" loading="eager">
+          <div class="image-overlay"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="frames">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">HOW IT WORKS</span>
+          <h2 class="section-title">This is the future of premium eyewear</h2>
+          <p class="section-description">
+            Our revolutionary 3-step process ensures you get glasses that fit perfectly and look amazing
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card" data-step="01">
+            <div class="feature-icon">
+              <i class="fas fa-home"></i>
+              <div class="icon-bg"></div>
+            </div>
+            <div class="feature-content">
+              <h3>Measured for you</h3>
+              <p>We send out the kit to collect your measurements at home. No more guessing your fit at the store.</p>
+              <div class="feature-arrow">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-card" data-step="02">
+            <div class="feature-icon">
+              <i class="fas fa-drafting-compass"></i>
+              <div class="icon-bg"></div>
+            </div>
+            <div class="feature-content">
+              <h3>Designed by you</h3>
+              <p>Select your style, colors and customize your glasses with our advanced style configurator.</p>
+              <div class="feature-arrow">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-card" data-step="03">
+            <div class="feature-icon">
+              <i class="fas fa-tools"></i>
+              <div class="icon-bg"></div>
+            </div>
+            <div class="feature-content">
+              <h3>Made from scratch</h3>
+              <p>Each pair is crafted to your exact measurements using premium quality materials and precise
+                manufacturing.</p>
+              <div class="feature-arrow">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="process-timeline">
+          <div class="timeline-line"></div>
+          <div class="timeline-progress"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Individual Style -->
+    <section class="individual-style" id="lenses">
+      <div class="container">
+        <div class="style-content">
+          <div class="style-text">
+            <h2 class="section-title">Individual style</h2>
+            <p class="style-description">
+              Like a fingerprint, each fit is unique, designed specifically to suit your face.
+              We tailor each frame to the millimeter, so you get glasses that are uniquely yours and perfectly
+              positioned.
+            </p>
+            <div class="style-features">
+              <div class="style-feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Precision measurements to 0.1mm accuracy</span>
+              </div>
+              <div class="style-feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Over 1000 customization options</span>
+              </div>
+              <div class="style-feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Premium materials and finishes</span>
+              </div>
+            </div>
+            <button class="btn btn-outline">
+              <span>Learn More</span>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="style-gallery">
+            <div class="gallery-item large">
+              <img src="https://i.pinimg.com/1200x/ea/04/60/ea046094c29aaa19855a5f256fc5138b.jpg" alt="Man with glasses"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <div class="overlay-content">
+                  <h4>Classic Collection</h4>
+                  <p>Timeless designs</p>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item medium">
+              <img src="https://i.pinimg.com/736x/80/e2/85/80e285de1cb444e1b9b1afa9cd662458.jpg" alt="Man with glasses"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <div class="overlay-content">
+                  <h4>Modern Frames</h4>
+                  <p>Contemporary style</p>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item small">
+              <img src="https://i.pinimg.com/736x/da/08/8d/da088d98438e813a93e134c49f72a315.jpg"
+                alt="Woman with glasses" loading="lazy">
+              <div class="gallery-overlay">
+                <div class="overlay-content">
+                  <h4>Elegant Design</h4>
+                  <p>Sophisticated look</p>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item round">
+              <img src="https://i.pinimg.com/736x/51/99/55/51995594b78d614ddbbc164a68fe424d.jpg" alt="Man with glasses"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <div class="overlay-content">
+                  <h4>Vintage Style</h4>
+                  <p>Retro charm</p>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item small-round">
+              <img src="https://i.pinimg.com/736x/a5/47/b7/a547b7b16f191b0d03d31a130b05a54a.jpg" alt="Man with glasses"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <div class="overlay-content">
+                  <h4>Sport Collection</h4>
+                  <p>Active lifestyle</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Action Cards -->
+    <section class="action-cards" id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">EXPLORE OPTIONS</span>
+          <h2 class="section-title">Start your journey</h2>
+        </div>
+
+        <div class="cards-grid">
+          <div class="action-card">
+            <div class="card-background"></div>
+            <div class="card-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>FIND A LOCATION</h3>
+            <p>Visit our showrooms to experience our frames in person and get expert fitting advice.</p>
+            <a href="#" class="card-link">
+              <span>Locate frames</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="action-card featured">
+            <div class="card-background"></div>
+            <div class="featured-badge">Most Popular</div>
+            <div class="card-icon">
+              <i class="fas fa-glasses"></i>
+            </div>
+            <h3>BROWSE OUR FRAME STYLES</h3>
+            <p>Discover hundreds of unique frame designs crafted by world-class designers.</p>
+            <a href="#" class="card-link">
+              <span>Explore frames</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="action-card">
+            <div class="card-background"></div>
+            <div class="card-icon">
+              <i class="fas fa-eye"></i>
+            </div>
+            <h3>EXPLORE OUR LENS OPTIONS</h3>
+            <p>From basic prescriptions to advanced blue light filtering and transitions.</p>
+            <a href="#" class="card-link">
+              <span>Explore lenses</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="customer-reviews" id="reviews">
+      <div class="container">
+        <div class="section-header">
+          <!-- <span class="section-badge white">VERIFIED CUSTOMER REVIEWS</span> -->
+          <h2 class="section-title white">Customer Reviews</h2>
+          <p class="section-description white">
+            See what our customers are saying about their perfect fit experience
+          </p>
+        </div>
+
+        <div class="review-slider">
+          <div class="review-navigation">
+            <button class="nav-btn prev-btn" aria-label="Previous review">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="nav-btn next-btn" aria-label="Next review">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+
+          <div class="review-content">
+            <div class="review-image">
+              <img src="https://i.pinimg.com/736x/55/bc/d3/55bcd3cbea2341b3a3ef80b55f12bc69.jpg" alt="Customer Mia C."
+                loading="lazy">
+              <div class="review-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="review-text">
+              <blockquote>"It's such a game changer, and if you wear prescription glasses, I'd say life-changing."
+              </blockquote>
+              <cite>Mia C.</cite>
+              <div class="review-meta">
+                <span>Verified Purchase</span>
+                <span>•</span>
+                <span>2 weeks ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-indicators">
+            <button class="indicator active" data-slide="0"></button>
+            <button class="indicator" data-slide="1"></button>
+            <button class="indicator" data-slide="2"></button>
+          </div>
+        </div>
+
+        <!-- <div class="trust-badges">
+            <div class="trust-badge">
+              <i class="fas fa-shield-alt"></i>
+              <span>30-Day Guarantee</span>
+            </div>
+            <div class="trust-badge">
+              <i class="fas fa-shipping-fast"></i>
+              <span>Free Shipping</span>
+            </div>
+            <div class="trust-badge">
+              <i class="fas fa-headset"></i>
+              <span>24/7 Support</span>
+            </div>
+          </div> -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="locations">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="nav-brand">
+              <i class="fas fa-sun"></i>
+              <span>Sunny Lenses</span>
+            </div>
+            <p>Crafting perfect eyewear experiences since 2020. Your vision, our precision.</p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <div class="link-group">
+              <h4>Products</h4>
+              <a href="#">Men's Frames</a>
+              <a href="#">Women's Frames</a>
+              <a href="#">Sunglasses</a>
+              <a href="#">Prescription Lenses</a>
+            </div>
+
+            <div class="link-group">
+              <h4>Support</h4>
+              <a href="#">Size Guide</a>
+              <a href="#">Warranty</a>
+              <a href="#">Returns</a>
+              <a href="#">Contact Us</a>
+            </div>
+
+            <div class="link-group">
+              <h4>Company</h4>
+              <a href="#">About Us</a>
+              <a href="#">Careers</a>
+              <a href="#">Press</a>
+              <a href="#">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 Sunny Lenses. All rights reserved.</p>
+          <div class="payment-methods">
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-paypal"></i>
+            <i class="fab fa-cc-apple-pay"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
